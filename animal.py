@@ -10,9 +10,9 @@ def default():
     print('hello')
 
 def main():
-    if len(sys.argv)>1 and sys.argv[1] == 'dog':
+    if len(sys.argv) > 1 and sys.argv[1] == 'dog':
         dog()
-    elif len(sys.argv)>1 and sys.argv[1] == 'cat':
+    elif len(sys.argv) > 1 and sys.argv[1] == 'cat':
     else:
         default()
         
