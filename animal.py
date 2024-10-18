@@ -13,6 +13,7 @@ def main():
     if len(sys.argv) > 1 and sys.argv[1] == 'dog':
         dog()
     elif len(sys.argv) > 1 and sys.argv[1] == 'cat':
+        cat()
     else:
         default()
         
